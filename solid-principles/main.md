@@ -41,7 +41,7 @@ class InvoicePrinter:
 ```
 
 ## The Open/Closed Principle
-The Open/Closed Principle states that our software components should simultaneously open and closed but with respect to different aspects. Our components should be open to extension but closed to modification. This means that we should be able to introduce new functionality without breaking existing code. Suppose we have the implementation below to calculate the total area of different shapes. Suppose also that we need to only include a portion of the area of a circle via a supplied `ratio` value which defaults to 1 in which case we consider the full circle.
+The Open/Closed Principle states that our software components should simultaneously be open and closed but with respect to different aspects. Our components should be open to extension but closed to modification. This means that we should be able to introduce new functionality without breaking existing code. Suppose we have the implementation below to calculate the total area of different shapes. Suppose also that we need to only include a portion of the area of a circle via a supplied `ratio` value which defaults to 1 in which case we consider the full circle.
 
 ```python
 class Rectangle:
